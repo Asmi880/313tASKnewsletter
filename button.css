@@ -1,0 +1,30 @@
+:root {
+    --button-primary: #3498db; 
+    --button-secondary: #e74c3c; 
+    --button-hover: #f39c12; 
+    --box-shadow-color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .button {
+    background: var(--button-secondary);
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease;
+    font-size: var(--text-xl);
+  }
+  
+  .button:hover {
+    background: var(--button-hover);
+    box-shadow: 2px 2px 5px var(--box-shadow-color);
+    transform: scale(1.05);
+  }
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
